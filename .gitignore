@@ -1,0 +1,34 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Local IDE settings
+.idea/
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Test and coverage output
+[Tt]est[Rr]esults/
+BenchmarkDotNet.Artifacts/
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Local environment files and container data
+.env
+.env.*
+!.env.example
+.containers/
+
+# Operating system files
+.DS_Store
+Thumbs.db
